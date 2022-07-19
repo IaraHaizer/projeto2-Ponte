@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: blueviolet;
+}
+
+.sidebar-pos{
+    position: absolute;
+    top: 30%;
+}
+
+.img img{
+    text-align: center;
+    width: 80%;
+    border: 8px solid rgb(187, 133, 238);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 8%;
+}
+
+.menu{
+    margin: 20px 20;
+    text-align: center;
+    position: relative;
+
+}
+
+.menu a{
+    color: white;
+    opacity: 0.4;
+    font-size: 19px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.menu a.selected{
+    opacity: 1;
+}
+
+.content{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 20%;
+    top: 50%;
+    overflow-y: auto;
+    padding: 0 3%;
+}
+section.descrição{
+    position: relative;
+}
+
+section.descrição p > span{
+    color: blueviolet;
+}
+
+.redessociais{
+    margin-top: 100px;
+}
